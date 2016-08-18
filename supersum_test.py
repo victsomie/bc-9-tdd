@@ -14,7 +14,7 @@ class SuperSumTest(unittest.TestCase):
 	def test_one_number(self):
 		self.assertEqual(super_sum(500), 500, msg = "500 should give you 500")
 
-	def  test_one_list():
+	def  test_one_list(self):
 		self.assertEqual(super_sum([2, 5, 8]), 15, msg = "super_sum([2, 5, 8]) should give you 6")
 
 	def test_all_numbers(self):
