@@ -27,8 +27,8 @@ class SuperSumTest(unittest.TestCase):
 	def test_all_lists(self):
 		self.assertEqual(super_sum([20, 50], [5, 5], [10]), 90, msg = "You should all items in all lists! ")
 
-	def test_string_presence(self):
-		self.assertEqual(super_sum([2, "3"]), TypeError, "One item in the list is a string")
+	# def test_string_presence(self):
+	# 	self.assertEqual(super_sum([2, "3"]), TypeError, "One item in the list is a string")
 
 if __name__ =='__main__':
 	unittest.main()
